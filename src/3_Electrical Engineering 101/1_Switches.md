@@ -1,0 +1,3 @@
+# Switches
+
+* itu seperti tombol
