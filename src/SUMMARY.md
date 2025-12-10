@@ -23,3 +23,4 @@
     - [SPICE](2_Advanced%20Circuit%20Analysis%20Techniques%20and%20Tools/4_SPICE.md)
 - [Electrical Engineering 101]()
     - [Switches](3_Electrical%20Engineering%20101/1_Switches.md)
+    - [Potentiometers](3_Electrical%20Engineering%20101/2_Potentiometers.md)
