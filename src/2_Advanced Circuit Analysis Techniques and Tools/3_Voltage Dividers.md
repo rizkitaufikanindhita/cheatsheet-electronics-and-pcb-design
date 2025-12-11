@@ -16,7 +16,7 @@
 * V2 = Vin * (R2 / (R1 + R2)) -> V2 adalah tegangan pada resistor R2
 
 ### Rumus Voltage Divider (img/3_Simple_Voltage_Divider.png)
-![simple voltage divider](img/3_Simple_Voltage_Divider.png)
+![simple voltage divider](../../img/3_Simple_Voltage_Divider.png)
 * Vout = Vin * (R2 / (R1 + R2)) 
 * R1 (Resistor Atas) -> Terhubung antara Sumber Tegangan (Vin) dan Output.
 * R2 (Resistor Bawah) -> Terhubung antara Output dan GROUND (GND).
