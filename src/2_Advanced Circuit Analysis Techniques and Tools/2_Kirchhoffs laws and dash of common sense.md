@@ -16,8 +16,8 @@
     * intinya tegangan akan menjadi 0V
 
 * Series and Parallel Resistors Circuit 
-    * Series: (img/2_Series_Resistor)
-        ![series resistor](img/2_Series_Resistor)
+    * Series: (../img/2_Series_Resistor.png)
+        ![series resistor](../img/2_Series_Resistor.png)
         * Hambatannya diakumulasikan
         * e.g 
         * ada source Vab
@@ -26,8 +26,8 @@
         * V2 = I * R2 
         * P2 = V2 * I -> P2 = I^2 * R2
 
-    * Parallel: (img/2_Parallel_Resistor)
-        ![parallel resistor](img/2_Parallel_Resistor)
+    * Parallel: (../img/2_Parallel_Resistor.png)
+        ![parallel resistor](../img/2_Parallel_Resistor.png)
         * Hambatannya dihitung dengan penjumlahan seper (nilai total makin kecil).
         * e.g 
         * ada source Vab
@@ -48,7 +48,7 @@
         * arus yang mengalir dalam rangkaian 100mA tapi dalam rangkaian percabangan (2 cabang paralel) dengan KCL menjadi 50mA & 50mA
 
     __contoh circuit__
-    * img/2_Series_Parallel_Resistor_Practice
+    * ../img/2_Series_Parallel_Resistor_Practice.png
         * Vtotal = V1 + V2 -> 9V + 9V = 18V
         * R12 = R1 + R2 -> 10 ohm + 20 ohm = 30 ohm
         * R34 = R3 + R4 -> 200 ohm + 1000 ohm = 1200 ohm
@@ -56,7 +56,7 @@
         * R6 = 10 ohm
         * Itotal = Vtotal/(R12 + R345 + R6) -> 18V/(30 ohm + 92.31 ohm + 10 ohm) = 0.136A = 136mA
         * jadi rangkaian disederhanakan terlebih dahulu seperti menjadi series
-        ![series parallel resistor disederhanakan](img/2_Series_Parallel_Resistor_Practice_setelah_disederhanakan)
+        ![series parallel resistor disederhanakan](../img/2_Series_Parallel_Resistor_Practice_setelah_disederhanakan.png)
         * jika sudah didapat arusnya (136mA), maka bisa dihitung tegangan di setiap komponen dan arus di setiap komponen dengan KVL dan KCL
         * Voltage total = 18V
         * series :
@@ -90,7 +90,7 @@ __pada parallel arus akan dibagi sesuai cabangnya e.g 100mA ada 2 cabang bisa 40
 * lalu pada parallel hitung arusnya (KCL) karena arusnya kan terbagi ke setiap cabangnya 
 * lalu hitung tegangan per komponen (KVL) pada parallel
 * pastikan lagi kalau tegangannya sudah habis terbagi ke semua komponen 
-__sourcenya img/2_Series_Parallel_Resistor_Practice dan img/2_Series_Parallel_Resistor_Practice_setelah disederhanakan__
+__sourcenya ../img/2_Series_Parallel_Resistor_Practice.png dan ../img/2_Series_Parallel_Resistor_Practice_setelah_disederhanakan.png__
 __diingat-ingat lagi cara analysis circuitnya apda gambar tersebut__
         
         
