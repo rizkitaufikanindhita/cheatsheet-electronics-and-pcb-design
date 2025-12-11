@@ -17,6 +17,7 @@
 
 * Series and Parallel Resistors Circuit 
     * Series: (img/2_Series_Resistor)
+        ![series resistor](img/2_Series_Resistor)
         * Hambatannya diakumulasikan
         * e.g 
         * ada source Vab
@@ -26,6 +27,7 @@
         * P2 = V2 * I -> P2 = I^2 * R2
 
     * Parallel: (img/2_Parallel_Resistor)
+        ![parallel resistor](img/2_Parallel_Resistor)
         * Hambatannya dihitung dengan penjumlahan seper (nilai total makin kecil).
         * e.g 
         * ada source Vab
@@ -54,6 +56,7 @@
         * R6 = 10 ohm
         * Itotal = Vtotal/(R12 + R345 + R6) -> 18V/(30 ohm + 92.31 ohm + 10 ohm) = 0.136A = 136mA
         * jadi rangkaian disederhanakan terlebih dahulu seperti menjadi series
+        ![series parallel resistor disederhanakan](img/2_Series_Parallel_Resistor_Practice_setelah_disederhanakan)
         * jika sudah didapat arusnya (136mA), maka bisa dihitung tegangan di setiap komponen dan arus di setiap komponen dengan KVL dan KCL
         * Voltage total = 18V
         * series :
