@@ -16,7 +16,7 @@
     * intinya tegangan akan menjadi 0V
 
 * Series and Parallel Resistors Circuit 
-    * Series: (../img/2_Series_Resistor.png)
+    * Series: 
         ![series resistor](../img/2_Series_Resistor.png)
         * Hambatannya diakumulasikan
         * e.g 
@@ -26,7 +26,7 @@
         * V2 = I * R2 
         * P2 = V2 * I -> P2 = I^2 * R2
 
-    * Parallel: (../img/2_Parallel_Resistor.png)
+    * Parallel: 
         ![parallel resistor](../img/2_Parallel_Resistor.png)
         * Hambatannya dihitung dengan penjumlahan seper (nilai total makin kecil).
         * e.g 
@@ -48,7 +48,8 @@
         * arus yang mengalir dalam rangkaian 100mA tapi dalam rangkaian percabangan (2 cabang paralel) dengan KCL menjadi 50mA & 50mA
 
     __contoh circuit__
-    * ../img/2_Series_Parallel_Resistor_Practice.png
+    * Contoh Circuit
+        ![series parallel practice](../img/2_Series_Parallel_Resistor_Practice.png)
         * Vtotal = V1 + V2 -> 9V + 9V = 18V
         * R12 = R1 + R2 -> 10 ohm + 20 ohm = 30 ohm
         * R34 = R3 + R4 -> 200 ohm + 1000 ohm = 1200 ohm
