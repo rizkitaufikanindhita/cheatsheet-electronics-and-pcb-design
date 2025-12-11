@@ -24,3 +24,4 @@
 - [Electrical Engineering 101]()
     - [Switches](3_Electrical%20Engineering%20101/1_Switches.md)
     - [Potentiometers](3_Electrical%20Engineering%20101/2_Potentiometers.md)
+    - [Capacitors and AC Coupling](3_Electrical%20Engineering%20101/3_Capacitors%20and%20AC%20Coupling.md)
