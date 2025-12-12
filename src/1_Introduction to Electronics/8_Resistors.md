@@ -56,3 +56,9 @@ __jadi kalau ada rangkaian yang digunakan untuk hitung arus yaitu voltase terakh
 
 * potentiometer 
     * sejenis resistor yang bisa diatur dengan dialnya
+
+* series and parallel resistor
+    * series -> hambatannya diakumulasikan 
+        * Rt = R1 + R2 + R3 + ... 
+    * parallel -> hambatannya disederhanakan menjadi seperti series
+        * Rt = R1 * R2 / (R1 + R2)

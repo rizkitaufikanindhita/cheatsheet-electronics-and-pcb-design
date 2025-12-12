@@ -8,6 +8,23 @@
     * Low Pass Filter: Meloloskan sinyal pelan (Bass), membuang sinyal cepat (Treble/Noise). Dipakai untuk membersihkan sinyal sensor yang jittery (gemetar). rangkaiannya resistor dulu baru capacitor.
     * High Pass Filter: Meloloskan sinyal cepat, memblokir sinyal diam (DC). Dipakai di audio amplifier agar tegangan baterai tidak masuk ke speaker. rangkaiannya capacitor dulu baru resistor.
 
+### Series and Parallel Capacitor
+* Parallel Capacitor
+    * Ct = C1 + C2 + C3 + ...
+* Series Capacitor 
+    * Ct = C1 * C2 / (C1 + C2)
+    * Capacitor disusun series sangat jarang sekali digunakan, mending langsung pasang capacitor yang besar   
+
+### Konsep RC Circuit
+    * Konsep Rangkaian RC (Resistor + Capacitor) = TIMER
+    * Ini adalah konsep paling vital untuk logika digital dan mikrokontroler.
+    * Jika Anda menghubungkan Resistor dan Kapasitor secara seri (berurutan), listrik tidak akan langsung "penuh" tapi berangsung akan penuh.
+    * Kapasitor akan terisi secara perlahan mengikuti kurva melengkung.
+    * Rumus Waktu (T) -> Waktu (detik) = R (Ohm) * C (Farad)
+    * Kapasitor dianggap penuh (100%) setelah 5 * R * C. 
+    * Contoh:Anda menekan saklar. Lampu tidak langsung nyala terang, tapi meredup dulu baru terang perlahan. Itu efek rangkaian RC. 
+    
+
 ### Implementasi dari Low Pass Filter
     * Power On Reset (POR)
         * Fungsi: Menunda chip bekerja sampai listrik stabil.
@@ -35,5 +52,11 @@
             * Hasilnya, tegangan di kaki chip tetap rata dan stabil (tidak anjlok).
         * Tujuan: Mencegah tegangan drop saat kerja berat.
 
-### Series and Parallel Capacitor
+### Coloumb
+* Q = C * V
+* C -> Kapasitor -> Farad (F)
+* V -> Voltase -> Volt (V)
+* Q -> Muatan -> Coloumb (C)
+
+__intinya kalau series dan parallel itu disederhanakan dulu__
 
