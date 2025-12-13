@@ -2,9 +2,9 @@
 
 - Konsep
   - Simpan energi pada medan magnet
-  - Satuannya yaitu Henry (H)
   - Tujuan : menstabilkan arus
-  - Symbol : L
+  - Satuannya yaitu Henry (H)
+  - Symbol : L 
   - 5 x (L/R) yaitu untuk menghitung waktu delay sampai induktor penuh dan arus menjadi stabil
 
 - Series dan Parallel Inductor
