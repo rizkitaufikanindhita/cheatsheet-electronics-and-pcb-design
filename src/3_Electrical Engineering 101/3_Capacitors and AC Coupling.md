@@ -1,13 +1,14 @@
 # Capacitors and AC Coupling
 
-- capacitor
+- Konsep
+  - menyimpan energi pada medan listrik
   - menstabilkan tegangan, menghilangkan noise
   - satuannya yaitu Farad (F)
 
 ### Fungsi Capacitor
 
-- Low Pass Filter: Meloloskan sinyal pelan (Bass), membuang sinyal cepat (Treble/Noise). Dipakai untuk membersihkan sinyal sensor yang jittery (gemetar). rangkaiannya resistor dulu baru capacitor (capacitor nempel ground).
-- High Pass Filter: Meloloskan sinyal cepat, memblokir sinyal diam (DC). Dipakai di audio amplifier agar tegangan baterai tidak masuk ke speaker. rangkaiannya capacitor dulu baru resistor. (resistor nempel ground)
+- Low Pass RC Filter: Meloloskan sinyal pelan (Bass), membuang sinyal cepat (Treble/Noise). Dipakai untuk membersihkan sinyal sensor yang jittery (gemetar). rangkaiannya resistor dulu baru capacitor (capacitor nempel ground).
+- High Pass RC Filter: Meloloskan sinyal cepat, memblokir sinyal diam (DC). Dipakai di audio amplifier agar tegangan baterai tidak masuk ke speaker. rangkaiannya capacitor dulu baru resistor. (resistor nempel ground)
 
 ### Series and Parallel Capacitor
 
@@ -23,10 +24,10 @@
 - Ini adalah konsep paling vital untuk logika digital dan mikrokontroler.
 - Jika Anda menghubungkan Resistor dan Kapasitor secara seri (berurutan), listrik tidak akan langsung "penuh" tapi berangsur-angsur akan penuh (charging capacitor).
 - Kapasitor akan terisi secara perlahan mengikuti kurva melengkung.
-- Kapasitor dianggap penuh (charging) (100%) setelah (pada detik) 5 _ R(Ohm) _ C(Farad).
-- Jadi misal R = 100 Ohm, C = 100 uF, maka waktu tunda(timer) yang dihasilan yaitu 5 _ 100 _ 100 uF = 5000 uF = 5 ms.
+- Kapasitor dianggap penuh (charging) (100%) setelah (pada detik) 5 x R(Ohm) x C(Farad).
+- Jadi misal R = 100 Ohm, C = 100 uF, maka waktu tunda(timer) yang dihasilan yaitu 5 x 100 x 100 uF = 5000 uF = 5 ms.
   - Contoh:Anda menekan saklar. Lampu tidak langsung nyala terang, tapi redup dulu baru terang (charging) perlahan. Itu efek rangkaian RC. Saat sumber tegangan dicabut maka lampu tidak langsung mati tapi meredup dulu baru mati (discharging) perlahan.
-  - **5 _ R _ C** itu adalah waktu tunda untuk **charging** sampai penuh dan waktu tunda untuk **discharging** sampai habis.
+  - **5 x R x C** itu adalah waktu tunda untuk **charging** sampai penuh serta tegangan sudah stabil dan waktu tunda untuk **discharging** sampai habis.
 
 ### Implementasi dari Low Pass Filter
 
