@@ -1,10 +1,17 @@
 # Capacitors and AC Coupling
 
 - Konsep
-  - menyimpan energi pada medan listrik
-  - menstabilkan tegangan, menghilangkan noise
-  - satuannya yaitu Farad (F)
-
+  - Simpan energi pada medan listrik
+  - Tujuan: **menstabilkan tegangan**, menghilangkan noise
+  - Satuannya yaitu Farad (F)
+  - Komponen ini bereaksi terhadap Perubahan Tegangan.
+  - t = 5 x R x C yaitu untuk menghitung waktu delay sampai Capacitor penuh dan tegangan menjadi stabil
+  - Rumus 
+    - I = C * dV/dt
+    - Besar Arus (I) tergantung pada seberapa cepat Tegangan berubah (dV/dt)
+    - Kasus 1: Tegangan Tiba-tiba DROP (Turun) Terjadi perubahan tegangan negatif (nilai dV/dt negatif). Berdasarkan rumus, Kapasitor menghasilkan Arus negatif (Arus keluar dari kapasitor). Efek: Arus keluar ini "menambal" kekurangan tegangan di rangkaian, sehingga tegangan tidak jadi jatuh drastis. (analogi: Jika pompa PDAM mati sebentar (Tegangan Drop), air di tandon akan turun ke pipa untuk menjaga kran tetap mengalir.)
+    - Kasus 2: Tegangan Tiba-tiba SPIKE (Naik) Terjadi perubahan tegangan positif (nilai dV/dt positif). Berdasarkan rumus, Kapasitor menarik Arus positif (Arus masuk ke kapasitor). Efek: Kapasitor memakan kelebihan energi tersebut, sehingga tegangan tidak jadi melonjak tinggi. (analogi: Jika pompa PDAM menyembur terlalu kencang (Tegangan Spike), air akan masuk mengisi tandon dulu, sehingga kran tidak jebol karena tekanan tinggi.)
+    
 ### Fungsi Capacitor
 
 - Low Pass RC Filter: Meloloskan sinyal pelan (Bass), membuang sinyal cepat (Treble/Noise). Dipakai untuk membersihkan sinyal sensor yang jittery (gemetar). rangkaiannya resistor dulu baru capacitor (capacitor nempel ground).
@@ -72,6 +79,7 @@
     - Chip mikrokontroler akhirnya hanya melihat satu perubahan logika yang mulus (misal dari HIGH ke LOW) tanpa gangguan getaran.
   - Tujuan: Mencegah double-click hantu atau pembacaan input yang error.
 
+
 **intinya kalau series dan parallel itu disederhanakan dulu**
 
 **implementasi utama capacitor yaitu Bypass, POR, Debouncing**
@@ -79,3 +87,5 @@
 **dalam rangkaian RC bisa lebih dari 1 resistor dan lebih dari 1 capacitor**
 
 **ukuran resistor dan capacitor mempengaruhi waktu tunda timer**
+
+Q = C * V

@@ -2,10 +2,16 @@
 
 - Konsep
   - Simpan energi pada medan magnet
-  - Tujuan : menstabilkan arus
+  - Tujuan : **menstabilkan arus**
   - Satuannya yaitu Henry (H)
   - Symbol : L 
-  - 5 x (L/R) yaitu untuk menghitung waktu delay sampai induktor penuh dan arus menjadi stabil
+  - t = 5 x (L/R) yaitu untuk menghitung waktu delay sampai induktor penuh dan arus menjadi stabil.
+  - Komponen ini bereaksi terhadap Perubahan Arus.
+  - rumus 
+    - V = L * dI/dt
+    - Besar Tegangan (V) tergantung pada seberapa cepat Arus berubah (dI/dt)
+    - Kasus 1: Arus Tiba-tiba DROP (Turun/Putus) Terjadi perubahan arus negatif (nilai dI/dt negatif). Berdasarkan rumus, Induktor menghasilkan Tegangan "dorong" ke depan. Efek: Arus tidak bisa berhenti seketika, tapi akan "bablas" atau terus mengalir sebentar meskipun sumber sudah mati. (Analogi: Truk yang sedang ngebut tiba-tiba direm mendadak (Arus Drop). Karena truknya sangat berat, ia tidak bisa langsung berhenti di tempat, tapi akan terseret/meluncur jauh ke depan sebelum benar-benar berhenti.)
+    - Kasus 2: Arus Tiba-tiba SPIKE (Naik/Nyala) Terjadi perubahan arus positif (nilai dI/dt positif). Berdasarkan rumus, Induktor menghasilkan Tegangan "lawan" ke belakang. Efek: Arus tertahan, sehingga tidak bisa langsung ngebut, melainkan naik perlahan-lahan. (Analogi: Truk yang sedang diam tiba-tiba di-gas pol (Arus Spike). Karena muatannya sangat berat, truk itu terasa berat sekali untuk mulai bergerak, kecepatannya naik pelan-pelan, tidak bisa langsung melesat seperti mobil balap.)
 
 - Series dan Parallel Inductor
   - sama seperti resistor

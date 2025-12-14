@@ -10,7 +10,7 @@
     * untuk menyalakan komponen yang butuh arus besar 
     * menyalakan motor DC 5V dari sumber 12V. Jika pakai voltage divider, resistor akan panas sekali dan tegangannya akan drop saat motor berputar. Anda butuh penurun tegangan khusus (__Buck Converter__ untuk DC, atau __Trafo__ untuk AC).
 
-### Rumus mencari Voltage pada spesifik komponen
+### Rumus mencari Voltage pada spesifik resistor pada rangkaian voltage divider
 * e.g ada 2 resistor
 * V1 = Vin * (R1 / (R1 + R2)) -> V1 adalah tegangan pada resistor R1
 * V2 = Vin * (R2 / (R1 + R2)) -> V2 adalah tegangan pada resistor R2
