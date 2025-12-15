@@ -7,10 +7,18 @@
   - Komponen ini bereaksi terhadap Perubahan Tegangan.
   - t = 5 x R x C yaitu untuk menghitung waktu delay sampai Capacitor penuh dan tegangan menjadi stabil
   - Rumus 
-    - I = C * dV/dt
-    - Besar Arus (I) tergantung pada seberapa cepat Tegangan berubah (dV/dt)
-    - Kasus 1: Tegangan Tiba-tiba DROP (Turun) Terjadi perubahan tegangan negatif (nilai dV/dt negatif). Berdasarkan rumus, Kapasitor menghasilkan Arus negatif (Arus keluar dari kapasitor). Efek: Arus keluar ini "menambal" kekurangan tegangan di rangkaian, sehingga tegangan tidak jadi jatuh drastis. (analogi: Jika pompa PDAM mati sebentar (Tegangan Drop), air di tandon akan turun ke pipa untuk menjaga kran tetap mengalir.)
-    - Kasus 2: Tegangan Tiba-tiba SPIKE (Naik) Terjadi perubahan tegangan positif (nilai dV/dt positif). Berdasarkan rumus, Kapasitor menarik Arus positif (Arus masuk ke kapasitor). Efek: Kapasitor memakan kelebihan energi tersebut, sehingga tegangan tidak jadi melonjak tinggi. (analogi: Jika pompa PDAM menyembur terlalu kencang (Tegangan Spike), air akan masuk mengisi tandon dulu, sehingga kran tidak jebol karena tekanan tinggi.)
+    - Rumus charging dan discharging
+      - charging
+        - Vc(t) = V0 * (1 - e^(-t/RC))
+        - Vc(t) = Tegangan kapasitor pada waktu ke-t, V0 = tegangan awal, t = waktu, R = resistor, C = kapasitor
+      - discharging
+        - Vc(t) = V0 * e^(-t/RC)
+        - Vc(t) = Tegangan kapasitor pada waktu ke-t, V0 = tegangan awal, t = waktu, R = resistor, C = kapasitor
+    - Rumus jumlah arus listrik yang mengalir menembus (secara efektif) kapasitor. 
+      - I = C * dV/dt
+      - Besar Arus (I) tergantung pada seberapa cepat Tegangan berubah (dV/dt)
+      - Kasus 1: Tegangan Tiba-tiba DROP (Turun) Terjadi perubahan tegangan negatif (nilai dV/dt negatif). Berdasarkan rumus, Kapasitor menghasilkan Arus negatif (Arus keluar dari kapasitor). Efek: Arus keluar ini "menambal" kekurangan tegangan di rangkaian, sehingga tegangan tidak jadi jatuh drastis. (analogi: Jika pompa PDAM mati sebentar (Tegangan Drop), air di tandon akan turun ke pipa untuk menjaga kran tetap mengalir.)
+      - Kasus 2: Tegangan Tiba-tiba SPIKE (Naik) Terjadi perubahan tegangan positif (nilai dV/dt positif). Berdasarkan rumus, Kapasitor menarik Arus positif (Arus masuk ke kapasitor). Efek: Kapasitor memakan kelebihan energi tersebut, sehingga tegangan tidak jadi melonjak tinggi. (analogi: Jika pompa PDAM menyembur terlalu kencang (Tegangan Spike), air akan masuk mengisi tandon dulu, sehingga kran tidak jebol karena tekanan tinggi.)
     
 ### Fungsi Capacitor
 
@@ -89,3 +97,7 @@
 **ukuran resistor dan capacitor mempengaruhi waktu tunda timer**
 
 Q = C * V
+
+**saat charging dari power +, saat discharge dari capacitor + (balik)"**
+
+**Capacitor bekerja ketika tegangan berubah**
