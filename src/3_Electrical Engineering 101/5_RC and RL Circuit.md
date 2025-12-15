@@ -1,1 +1,0 @@
-# RC and RL Circuit

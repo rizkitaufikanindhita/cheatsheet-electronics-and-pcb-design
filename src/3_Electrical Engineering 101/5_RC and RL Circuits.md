@@ -37,3 +37,25 @@
   - Cara Atasi:
     - Damping (Peredaman): Pilih kapasitor yang memiliki sedikit resistansi internal (ESR) atau tambahkan resistor paralel untuk membuang energi osilasi.
     - Desain Layout: Dekatkan kapasitor (decoupling) ke pin power IC untuk memperkecil loop induktansi yang terbentuk.
+
+## ECI dan ELI
+- "Mendahului" di sini mengacu pada WAKTU (Time).
+- ICE (Electrical Capacitance and Inductance) -> Capacitor
+  - I -> arus
+  - C -> Kapasitas (Kapasitor)
+  - E -> tegangan
+  - Konsep:
+    - Detik 0: Anda hubungkan sumber. Kapasitor masih kosong melompong (Tegangan = 0).
+    - Detik 1: Karena kosong, Arus langsung nyelonong masuk dengan deras (Arus Maksimal).
+    - Detik 2: Setelah arus mengisi, baru Tegangan pelan-pelan naik.
+    - Kesimpulan: Arus mengalir duluan (Mendahului), Tegangan baru terbangun belakangan (Tertinggal).
+    
+- ELI (Electrical Inductance and Inductance) -> Inductor
+  - E -> tegangan
+  - L -> Induktansi (Induktor)
+  - I -> arus
+  - Konsep:
+    - Detik 0: Anda berikan Tegangan (Gaya dorong).
+    - Detik 1: Arus belum mau jalan (karena dihadang sifat magnet induktor). Tegangan sudah ada, Arus masih 0.
+    - Detik 2: Arus baru mulai merangkak naik pelan-pelan.
+    - Kesimpulan: Tegangan muncul duluan (Mendahului), Arus menyusul belakangan (Tertinggal/Lagging).

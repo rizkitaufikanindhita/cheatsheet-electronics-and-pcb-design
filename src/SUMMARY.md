@@ -27,4 +27,5 @@
   - [Potentiometers](3_Electrical%20Engineering%20101/2_Potentiometers.md)
   - [Capacitors and AC Coupling](3_Electrical%20Engineering%20101/3_Capacitors%20and%20AC%20Coupling.md)
   - [Inductors Model](3_Electrical%20Engineering%20101/4_Inductors%20Model.md)
-  - [RC and RL Circuit](3_Electrical%20Engineering%20101/5_RC%20and%20RL%20Circuit.md)
+  - [RC and RL Circuits](3_Electrical%20Engineering%20101/5_RC%20and%20RL%20Circuits.md)
+  - [Phasor](3_Electrical%20Engineering%20101/6_Phasor.md)
