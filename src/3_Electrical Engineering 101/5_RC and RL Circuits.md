@@ -59,3 +59,8 @@
     - Detik 1: Arus belum mau jalan (karena dihadang sifat magnet induktor). Tegangan sudah ada, Arus masih 0.
     - Detik 2: Arus baru mulai merangkak naik pelan-pelan.
     - Kesimpulan: Tegangan muncul duluan (Mendahului), Arus menyusul belakangan (Tertinggal/Lagging).
+    
+- Summary
+  - ICE -> arus lebih dulu daripada tegangan pada capacitor, karena capacitor bekerja ketika ada perubahan tegangan tujuannya menyetabilkan tegangan yaitu dengan menunda tegangannya makanya arus yang duluan. (Pada Kapasitor)
+  - ELI -> tegangan lebih dulu daripada arus pada induktor, karena induktor bekerja ketika ada perubahan arus tujuannya menyetabilkan arus yaitu dengan menunda arusnya makanya tegangan yang duluan. (Pada Induktor)
+  - Kalau pada Resistor, arus dan tegangan pada satu phase.
