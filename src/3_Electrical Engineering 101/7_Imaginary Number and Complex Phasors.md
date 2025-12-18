@@ -43,3 +43,5 @@
 - intinya dalam analisis rangkaian AC
   - Hitung I dengan V dan Z (karena pada sinyal AC) serta sudutnya
   - Hitung Z dan Sudut -> dari resistor dan reactance (induktor dan atau kapasitor)
+
+**Amplitude == Magnitude**
