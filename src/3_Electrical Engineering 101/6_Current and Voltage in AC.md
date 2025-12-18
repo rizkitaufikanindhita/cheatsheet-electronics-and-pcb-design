@@ -81,3 +81,13 @@
     - Vt = sqrt(Vr^2 + Vc^2) = sqrt(8.1^2 + 5.86^2) = 10 V
     - φ = tan^-1(XC/R) = tan^-1(72.34/100) = 35.9°
     - karena ini kapasitor maka ICE -> arus lebih dulu 35.9° dari tegangan sumber
+
+### Perbedaan Simple DC dan AC
+- Di Rangkaian DC (Baterai):
+  - Pakai Resistansi (R).
+  - Rumus: I = V/R
+  - Hanya menghitung nilai.
+- Di Rangkaian AC (PLN/Sinyal):
+  - Kita pakai Impedansi (Z).
+  - Rumus: I = V/Z
+  - Menghitung nilai DAN waktu (fase).
