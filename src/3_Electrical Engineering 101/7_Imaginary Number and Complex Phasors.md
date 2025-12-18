@@ -33,9 +33,9 @@
       - Impedansi -> Z = R + jXL = 3 + j4 Ω
     - Hitung Amplitude -> |Z| = sqrt(R^2 + XL^2) = sqrt(3^2 + 4^2) = 5 Ω
     - Hitung Sudut -> φ = tan^-1 x (XL/R) = 53.1°
-    - maka Z = A∠φ -> Z = 5∠53.1° Ω 
+    - Gabung dalam format Phasor -> Z = A∠φ -> Z = 5∠53.1° Ω 
     - Hitung Arus
-      - I = 20∠0° Volt / 5∠53.1° Ω = 4∠-53.1° Ampere
+      - I = V / Z = 20∠0° Volt / 5∠53.1° Ω = 4∠-53.1° Ampere
       - i(t) = 4sin(1000t-53.1°) Ampere
       - maka ELI -> tegangan lebih dulu daripada arus, dimana arus dibelakang tegangan sebesar 53.1 derajat.
 
