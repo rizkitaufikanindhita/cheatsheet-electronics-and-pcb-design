@@ -1,4 +1,4 @@
-# Voltage Divider
+# Voltage Divider in DC
 
 * untuk menurunkan tegangan dengan menggunakan 2 resistor yang dipasang seri (resistor kedua disebut resistor divider)
 * Voltage Divider -> 

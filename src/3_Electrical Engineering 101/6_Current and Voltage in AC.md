@@ -27,6 +27,9 @@
 - Capacitor:
   - rumus konversi capacitor ke reactance (X)
   - Xc = 1 / (ωC)
+  - ω = 2πf
+  - f adalah frekuensi sinyal AC dalam Hz
+  - ω -> Omega
   - mekanisme:
     - Frekuensi Rendah: Tegangan berubah lambat. Kapasitor punya banyak waktu hingga penuh. Saat penuh, arus berhenti mengalir (terblokir). Hambatan (Xc) besar.
     - Frekuensi Tinggi: Tegangan bolak-balik sangat cepat. Kapasitor belum sempat penuh, arah arus sudah berbalik lagi. Karena tidak pernah penuh, arus terus mengalir leluasa bolak-balik. Hambatan (Xc) menjadi kecil.
@@ -35,6 +38,9 @@
 - Inductor:
   - rumus konversi inductor ke reactance (X)
   - XL = ωL
+  - ω = 2πf
+  - f adalah frekuensi sinyal AC dalam Hz
+  - ω -> Omega
   - mekanisme:
     - Frekuensi Rendah: Arus berubah pelan-pelan. Tegangan lawan yang dihasilkan kecil. Hambatan (XL) kecil.
     - Frekuensi Tinggi: Arus berubah sangat cepat. Induktor merespons dengan menciptakan tegangan lawan yang sangat besar untuk melawan perubahan itu. Akibatnya, arus sulit lewat. Hambatan (XL) menjadi besar.
@@ -58,7 +64,25 @@
   - untuk menghitung Impedansi hasilnya ohm 
   - yang akan digunakan untuk ohm's law
   - Jika ada Kapasitor (XC) dan Induktor (XL) sekaligus dalam satu rangkaian seri, mereka akan saling bertarung (saling mengurangi).
+- Rangkaian RLC 
+  - Z = R + j(XL - XC)
+  - Z = sqrt(R^2 + (XL - XC)^2)
   
+### Sudut Fase (φ)
+- Induktor (L)
+  - φ = tan^-1(XL/R) 
+  - hasilnya positif
+- Kapasitor (C)
+  - φ = tan^-1(-XC/R) 
+  - hasilnya negatif
+- Rangkaian RLC
+  - φ = tan^-1((XL - XC)/R)
+  - hasilnya positif jika XL > XC dan negatif jika XL < XC
+
+### Tegangan
+- Tegangan pada induktor selalu mendahului arus sebesar 90 derajat (90°)
+- Tegangan pada kapasitor selalu belakang arus sebesar 90 derajat (-90°)
+
 ### Summary
 - Dalam rangkain AC untuk menghitung arus, kita menggunakan Impedansi (Z) yang merupakan total penghambat arus antara Resistor (nyata) dan Reaktansi (imajiner). 
 - Urutannya:
@@ -79,7 +103,7 @@
     - Vr = I * R = 0.081 * 100 = 8.1 V
     - Vc = I * XC = 0.081 * 72.34 = 5.86 V
     - Vt = sqrt(Vr^2 + Vc^2) = sqrt(8.1^2 + 5.86^2) = 10 V
-    - φ = tan^-1(XC/R) = tan^-1(72.34/100) = 35.9°
+    - φ = tan^-1(-XC/R) = tan^-1(-72.34/100) = -35.9°
     - karena ini kapasitor maka ICE -> arus lebih dulu 35.9° dari tegangan sumber
 
 ### Perbedaan Simple DC dan AC
@@ -90,4 +114,4 @@
 - Di Rangkaian AC (PLN/Sinyal):
   - Kita pakai Impedansi (Z).
   - Rumus: I = V/Z
-  - Menghitung nilai DAN waktu (fase).
+  - Menghitung nilai dan fase.

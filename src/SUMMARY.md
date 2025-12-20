@@ -20,7 +20,7 @@
 - [Advanced Circuit Analysis Techniques and Tools]()
   - [Real DC Circuit Analysis](2_Advanced%20Circuit%20Analysis%20Techniques%20and%20Tools/1_Real%20DC%20Circuit%20Analysis.md)
   - [Kirchhoffs laws and dash of common sense.](2_Advanced%20Circuit%20Analysis%20Techniques%20and%20Tools/2_Kirchhoffs%20laws%20and%20dash%20of%20common%20sense.md)
-  - [Voltage Dividers](2_Advanced%20Circuit%20Analysis%20Techniques%20and%20Tools/3_Voltage%20Dividers.md)
+  - [Voltage Dividers in DC](2_Advanced%20Circuit%20Analysis%20Techniques%20and%20Tools/3_Voltage%20Dividers%20in%20DC.md)
   - [SPICE](2_Advanced%20Circuit%20Analysis%20Techniques%20and%20Tools/4_SPICE.md)
 - [Electrical Engineering 101]()
   - [Switches](3_Electrical%20Engineering%20101/1_Switches.md)

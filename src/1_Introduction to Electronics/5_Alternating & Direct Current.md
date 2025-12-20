@@ -65,9 +65,11 @@ Arus bolak-balik (arahnya berubah terus seiring waktu)
 - Karena AC tidak konstan untuk menentukan V digunakan RMS agar sama dengan DC yang konstan
 - contoh 120V atau 220V itu bukan peak tapi RMS yang digunakan sebagai nilai tegangan AC
 - e.g untuk gelombang sinus
-- Rumus: Vrms = 0.5 × Vp-p × 0.707
-
-- Rumus Final: Vrms = Vp-p \* 0.3535
+- Rumus 
+  - dari Vpmax
+    - Vrms = Vpmax * 0.707
+  - dari Vp-p
+    - Vrms = Vp-p * 0.3535
 - e.g kalau Vrms 120V maka Vp-p nya 339.6V
 - kalau seimbang maka Vpmax = 169V, Vpmin = -169V
 - Vrms itu nilai Voltase AC
