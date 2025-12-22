@@ -19,4 +19,5 @@
 * Tegangan turun kalau jumlah lilitan primer lebih banyak daripada sekunder
 * N1 > N2
 
-     
+- Transformer -> tegangan outputnya tetap berdasar pada gulungannya
+- Variac (Auto Transformer) -> tegangan outputnya bisa diatur

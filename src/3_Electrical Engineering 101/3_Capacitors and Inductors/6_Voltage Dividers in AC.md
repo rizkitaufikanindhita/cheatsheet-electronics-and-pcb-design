@@ -64,5 +64,5 @@
   - Skenario 2 ini disebut High Pass Filter (HPF) -> frekuensi tinggi maka ZC kecil maka tegangan diloloskan
 
 
-- **frekuensi berbanding lurus dengan ZL**
-- **frekuensi berbanding terbalik dengan ZC**
+- **ZL dan XL berbanding lurus dengan frekuensi**
+- **ZC dan XC berbanding terbalik dengan frekuensi**
