@@ -44,7 +44,7 @@
 ### Skenario RC dan CR
 - Skenario 1:
   - R dulu baru C (output diambil di Capacitor)
-  - Vout = Vin * (ZC / (ZC + ZR))
+  - Vout = Vin * (ZC / (ZC + ZR)) -> tegangan yang diloloskan
   - Saat frekuensi rendah (Hz):
     - ZC sangat besar, sehingga Vout mendekati Vin
     - Efek: Sinyal diloloskan
@@ -54,7 +54,7 @@
   - Skenario 1 ini disebut Low Pass Filter (LPF) -> frekuensi rendah maka ZC besar maka tegangan diloloskan
 - Skenario 2:
   - C dulu baru R (output diambil di Resistor)
-  - Vout = Vin * (ZR / (ZR + ZC))
+  - Vout = Vin * (ZR / (ZR + ZC)) -> tegangan yang diloloskan
   - Saat frekuensi rendah (Hz):
     - ZC sangat besar, sehingga Vout mendekati 0
     - Efek: Sinyal diblokir

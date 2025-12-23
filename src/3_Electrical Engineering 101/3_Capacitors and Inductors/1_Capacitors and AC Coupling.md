@@ -49,6 +49,7 @@
 - Bypass / Decoupling Capacitor
 
   - Fungsi: Menstabilkan tegangan suplai ke chip.
+  - Tidak perlu pakai resistor hanya capacitor
   - Lokasi Pasang: Di kaki VCC.
   - Kapan Berfungsi: Terus-menerus selama alat menyala.
   - Masalah: Chip digital (seperti ESP32) bekerja dengan kecepatan sangat tinggi. Ia menarik arus listrik secara mendadak dan terputus-putus (seperti denyut nadi yang sangat cepat). Karena kabel dari sumber listrik (baterai) memiliki hambatan, tarikan arus mendadak ini menyebabkan tegangan di kaki chip sempat turun/drop sesaat (misal dari 3.3V turun jadi 3.0V lalu naik lagi). Jika tegangan turun terlalu jauh, chip akan mati atau restart sendiri.
@@ -87,6 +88,8 @@
     - Chip mikrokontroler akhirnya hanya melihat satu perubahan logika yang mulus (misal dari HIGH ke LOW) tanpa gangguan getaran.
   - Tujuan: Mencegah double-click hantu atau pembacaan input yang error.
 
+- Inti dari Implementasi Low Pass Filter diatas yaitu:
+- **"Blokir perubahan yang terlalu cepat (Frekuensi Tinggi), dan loloskan kondisi yang stabil/lambat (Frekuensi Rendah/DC)."**
 
 **intinya kalau series dan parallel itu disederhanakan dulu**
 
