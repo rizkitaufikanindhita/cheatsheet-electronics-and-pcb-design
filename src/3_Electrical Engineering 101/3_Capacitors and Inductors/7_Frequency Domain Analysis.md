@@ -48,7 +48,7 @@
 
         - semaking tinggi frekuensi semakin rendah tegangan yang lolos karena diblokir
     
-- Kalau RL, 
+- Kalau Rangkaian RL, 
     - rumus
         - cutoff frekuensi -> fc = R/2πL
         - presentase yang lolos -> H(f) = 1/sqrt(1+(f/fc)^2), dimana f dan fc itu sama

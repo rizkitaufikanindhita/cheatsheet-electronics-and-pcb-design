@@ -17,7 +17,7 @@
         - 1000 Volt -> 3 bel x 20 -> 60 dB
 
 ### Cutoff Frequency
-- batas dB -> -3 dB -> dikali 0.707 -> Vout = Vin x 0.707, dibawah nilai Vout ini chip ada kemungkinan akan menilai 0 (false)
+- batas dB -> -3 dB -> dikali 0.707 -> Vout = Vin x 0.707, dibawah nilai Vout ini, chip ada kemungkinan akan menilai 0 (false)
 
 ### dB Absolut 
 - Patokan (Referensi)
