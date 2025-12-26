@@ -51,12 +51,28 @@
 - Kalau Rangkaian RL, 
     - rumus
         - cutoff frekuensi -> fc = R/2πL
-        - presentase yang lolos -> H(f) = 1/sqrt(1+(f/fc)^2), dimana f dan fc itu sama
+        - presentase yang lolos 
+            - Low Pass Filter -> H(f) = 1/sqrt(1+(f/fc)^2), dimana fc -> cutoff frequency, f -> frequency input
+            - High Pass Filter -> H(f) = 1/sqrt(1+(fc/f)^2), dimana fc -> cutoff frequency, f -> frequency input
 
-### Implementasi lain
+### Implementasi lain rangkaian RC ataupun C
 - Bypass / Decoupling Capacitor (tidak perlu pakai resistor)
 - Power On Reset (POR)
 - Switch Debouncing
 
-
+### trivia 
 -**kalau Voutnya terlalu kecil maka akan dibaca 0 oleh microcontroller**
+
+### trivia 
+-**Solusi Engineering:**
+-**Jika Anda butuh Cutoff tinggi (15.9 kHz), JANGAN mengecilkan Resistor sampai ekstrem (<300 Ohm).Tapi Kecilkan Kapasitornya.**
+-**Cara Salah: R = 100 Ohm, C = 0.1 μF, fc = 15.9 kHz (Tapi arus kegedean, alat jebol/drop).**
+-**Cara Benar: R = 1000 Ohm, C = 0.01 μF, fc = 15.9 kHz (Arus aman, sinyal bersih).**
+-**Safety Rule: Jangan gunakan nilai Resistor terlalu kecil (misal < 300 Ohm) sebagai filter input, karena akan membebani sensor atau sumber sinyal Anda. Lebih baik mainkan nilai Kapasitornya.**
+
+### trivia 
+-**Membuat filter lebih tajam (Noise hilang lebih cepat).**
+-**2 atau lebih Rangkaian Filter dipasang seri.**
+-**Htotal(f) = H1(f) x H2(f)**
+-**agar berhasil bisa pakai Op-Amp (Operational Amplifier) komponen diantara filter**
+-**atau pakai Impedance Scaling, Filter 1: R = 100 Ohm, L = 10 mH lalu Filter 2: R = 1.000 kOhm, L = 100 mH.**
