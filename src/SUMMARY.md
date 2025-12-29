@@ -35,3 +35,7 @@
     - [Imaginary Number and Complex Phasors](3_Electrical%20Engineering%20101/3_Capacitors%20and%20Inductors/5_Imaginary%20Number%20and%20Complex%20Phasors.md)
     - [Voltage Dividers in AC](3_Electrical%20Engineering%20101/3_Capacitors%20and%20Inductors/6_Voltage%20Dividers%20in%20AC.md)
     - [Frequency Domain Analysis](3_Electrical%20Engineering%20101/3_Capacitors%20and%20Inductors/7_Frequency%20Domain%20Analysis.md)
+  - [Diodes]()
+    - [Deep Dives](3_Electrical%20Engineering%20101/4_Diodes/1_Deep%20Dives.md)
+    - [Zener and Schottky Diode](3_Electrical%20Engineering%20101/4_Diodes/2_Zener%20and%20Schottky.md)
+

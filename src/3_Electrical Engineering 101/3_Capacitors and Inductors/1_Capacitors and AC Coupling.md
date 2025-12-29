@@ -48,6 +48,7 @@
 
 - Bypass / Decoupling Capacitor
 
+  ![bypass and decoupling capacitor](../../img//bypass_and_decoupling_capacitor.png)
   - Fungsi: Menstabilkan tegangan suplai ke chip.
   - Tidak perlu pakai resistor hanya capacitor
   - Lokasi Pasang: Di kaki VCC.
@@ -59,6 +60,9 @@
     - Saat chip menarik arus besar secara mendadak, chip mengambil kekurangan arus dari Kapasitor tersebut, bukan menunggu dari baterai yang jauh.
     - Hasilnya, tegangan di kaki chip tetap rata dan stabil (tidak anjlok).
   - Tujuan: Mencegah tegangan drop saat kerja berat.
+  - Komponen:
+    - 1x Ceramic Capacitor 0.1 Micro Farad -> untuk filter frekuensi tinggi
+    - 1x Electrolytic Capacitor 10 Micro Farad -> untuk filter frekuensi rendah
 
 - Power On Reset (POR)
 

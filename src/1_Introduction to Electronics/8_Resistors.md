@@ -62,3 +62,14 @@ __jadi kalau ada rangkaian yang digunakan untuk hitung arus yaitu voltase terakh
         * Rt = R1 + R2 + R3 + ... 
     * parallel -> hambatannya disederhanakan menjadi seperti series
         * Rt = R1 * R2 / (R1 + R2)
+
+### Pemasangan resistor
+- resistor seri -> untuk menghambat arus ke komponen, agar komponen tidak rusak
+- resistor parallel ke 5V/VS -> Menjaga "Standar Logika" (Agar tidak Bingung)
+    - Tanpa Tombol Ditekan: Arus mengalir dari 5V -> Resistor -> Pin Input. Pin membaca HIGH.
+    - Saat Tombol Ditekan (ke GND): Arus dari 5V -> Resistor -> Masuk ke Ground. Pin membaca LOW.
+    - Kapan memakainya:
+        - Tombol/Switch
+        - I2C koneksi
+        - Pin Reset -> Agar chip tidak merestart dirinya sendiri secara tiba-tiba karena noise (gangguan sinyal).
+    - Resistor yang dipakai 10k Ohm atau 4.7k Ohm
