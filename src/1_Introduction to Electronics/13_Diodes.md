@@ -23,7 +23,6 @@
 * lalu di pasang rectifier (diode bridge (jadi satu arah)) untuk mengubah menjadi DC, keluar + dan - -> menjadi satu arah tapi belum stabil
     * bridge rectifier -> yaitu 4 diode yang dihubungkan bisa schottky maupun silicon
 * lalu di pasang capacitor untuk mengurangi noise dan menjadi stabil tegangannya
-* bisa di pasang inductor untuk mengurangi noise dan menjadi stabil arusnya
 * ouputnya menjadi 12VDC
 
 * karena sudah jadi 12VDC bisa dipasang diode (schottky) lalu bisa dimasukkan ke komponen elektronik lain 

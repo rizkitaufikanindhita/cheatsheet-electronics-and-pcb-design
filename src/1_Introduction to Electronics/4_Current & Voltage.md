@@ -38,3 +38,7 @@ Voltase dari battery (e.g 1.5V) saat diukur bisa menjadi 1.2V karena didalam bat
 
     - “Voltase buat kekuatan energi, Ampere kayak isi baterai.”
     - Kalau kamu seri → kuat dorongnya naik, kalau paralel → isi / kapasitasnya nambah.
+
+
+
+-**mencari arus itu disesuaikan dengan kebutuhan beban komponennya**

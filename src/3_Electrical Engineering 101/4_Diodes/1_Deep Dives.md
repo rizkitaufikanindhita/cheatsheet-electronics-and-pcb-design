@@ -10,7 +10,7 @@
 
 ### AC ke DC
 ![Full Wave Bridge Rectifier](../../img/bridge_rectifier.png)
-- Full-Wave Bridge Rectifier (4 Dioda) -> Dioda disusun seperti diamond sehingga menghasilkan arus DC dari AC
+- Full-Wave Bridge Rectifier (4 Dioda) -> Dioda disusun seperti diamond sehingga menghasilkan arus DC dari AC. Bridge rectifier ini ada komponennya sendiri.(tidak perlu pasang 4 diode)
 - Capacitor ripple setelah bridge rectifier -> karena tegangan yang keluar dari bridge rectifier masih naik turun maka perlu capacitor ripple sehingga tegangan tidak pernah jatuh ke nol dan menjadi lurus rata.
 
 ### Fungsi lain diode
