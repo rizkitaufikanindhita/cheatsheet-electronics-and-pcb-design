@@ -39,8 +39,8 @@
         - Sinyal sampai 0.8V: Dioda baru terbuka. Output muncul tapi cuma 0.1V (karena 0.8V - 0.7V).
     - "Kapasitor sebagai Penyelamat Waktu"
         - Kapasitor bukan sekadar "penghalus". Dia adalah Penyuplai Energi Utama saat dioda sedang istirahat (saat gelombang AC turun). Jika beban Anda rakus (resistor kecil), kapasitor akan cepat habis ("tekor") sebelum diisi ulang, membuat tegangan drop.
-        - kalau penghambatnya kecil maka bocornya (arus masuk ke beban) akan besar, membuat kapasitor cepat habis.
-        - kalau penghambatnya besar maka bocornya (arus masuk ke beban) akan kecil, membuat kapasitor lamban habis.
+        - kalau penghambatnya kecil maka bocornya (arus masuk ke beban) akan besar, membuat kapasitor cepat habis, garis DC bergerigi.
+        - kalau penghambatnya besar maka bocornya (arus masuk ke beban) akan kecil, membuat kapasitor lamban habis, garis DC lurus mulus.
 
 ### Wire "OR"
 ![Wire](../../img/Wire_OR.png)
