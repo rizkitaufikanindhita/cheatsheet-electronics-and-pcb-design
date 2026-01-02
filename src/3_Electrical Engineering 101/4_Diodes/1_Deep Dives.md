@@ -2,6 +2,7 @@
 
 - Komponen yang membuat arus menjadi satu arah.
 - Dioda adalah pintu berat yang butuh biaya untuk dibuka.
+- menurunkan tegangan AC dan mengubahnya menjadi DC.
 
 ### Tipe Dioda
 - Dioda Silikon (1N4001): Penjaga standar. Kuat, murah, tapi minta bayaran (drop voltage -> Vf) 0.7V. Cocok untuk penggunaan umum.
@@ -9,6 +10,10 @@
 - Dioda Zener (regulator): Penjaga "Safety Valve". Dia bekerja normal (satu arah), TAPI jika tekanan dari arah berlawanan terlalu besar (misal melebihi 5.1V), dia sengaja jebol (breakdown) untuk membuang kelebihan tekanan itu demi keamanan. Ini dipakai untuk Regulasi Tegangan. Jadi akan menggunakan tegangan yang tertera di zener diode.
 
 ### AC ke DC
+![half_wave_bridge_rectifier](../../img/half_wave_bridge_rectifier.png)
+- Half-Wave Bridge Rectifier
+
+![full_wave_bridge_rectifier](../../img/full_wave_bridge_rectifier.png)
 ![Full Wave Bridge Rectifier](../../img/bridge_rectifier.png)
 - Full-Wave Bridge Rectifier (4 Dioda) -> Dioda disusun seperti diamond sehingga menghasilkan arus DC dari AC. Bridge rectifier ini ada komponennya sendiri.(tidak perlu pasang 4 diode)
 - Capacitor ripple setelah bridge rectifier -> karena tegangan yang keluar dari bridge rectifier masih naik turun maka perlu capacitor ripple sehingga tegangan tidak pernah jatuh ke nol dan menjadi lurus rata.
