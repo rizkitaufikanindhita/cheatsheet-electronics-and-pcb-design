@@ -38,4 +38,5 @@
   - [Diodes]()
     - [Deep Dives](3_Electrical%20Engineering%20101/4_Diodes/1_Deep%20Dives.md)
     - [Zener and Schottky Diode](3_Electrical%20Engineering%20101/4_Diodes/2_Zener%20and%20Schottky.md)
+    - [Rangkaian Diodes](3_Electrical%20Engineering%20101/4_Diodes/3_Rangkaian%20Diodes.md)
 

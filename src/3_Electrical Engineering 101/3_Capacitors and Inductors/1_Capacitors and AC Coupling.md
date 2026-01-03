@@ -20,7 +20,7 @@
       - Kasus 1: Tegangan Tiba-tiba DROP (Turun) Terjadi perubahan tegangan negatif (nilai dV/dt negatif). Berdasarkan rumus, Kapasitor menghasilkan Arus negatif (Arus keluar dari kapasitor). Efek: Arus keluar ini "menambal" kekurangan tegangan di rangkaian, sehingga tegangan tidak jadi jatuh drastis. (analogi: Jika pompa PDAM mati sebentar (Tegangan Drop), air di tandon akan turun ke pipa untuk menjaga kran tetap mengalir.)
       - Kasus 2: Tegangan Tiba-tiba SPIKE (Naik) Terjadi perubahan tegangan positif (nilai dV/dt positif). Berdasarkan rumus, Kapasitor menarik Arus positif (Arus masuk ke kapasitor). Efek: Kapasitor memakan kelebihan energi tersebut, sehingga tegangan tidak jadi melonjak tinggi. (analogi: Jika pompa PDAM menyembur terlalu kencang (Tegangan Spike), air akan masuk mengisi tandon dulu, sehingga kran tidak jebol karena tekanan tinggi.)
     
-### Fungsi Capacitor
+### Rangkaian Capacitor
 
 - Low Pass RC Filter: Meloloskan sinyal pelan (Bass), membuang sinyal cepat (Treble/Noise). Dipakai untuk membersihkan sinyal sensor yang jittery (gemetar). rangkaiannya resistor dulu baru capacitor (capacitor nempel ground).
 - High Pass RC Filter: Meloloskan sinyal cepat, memblokir sinyal diam (DC). Dipakai di audio amplifier agar tegangan baterai tidak masuk ke speaker. rangkaiannya capacitor dulu baru resistor. (resistor nempel ground)
@@ -44,14 +44,14 @@
   - Contoh:Anda menekan saklar. Lampu tidak langsung nyala terang, tapi redup dulu baru terang (charging) perlahan. Itu efek rangkaian RC. Saat sumber tegangan dicabut maka lampu tidak langsung mati tapi meredup dulu baru mati (discharging) perlahan.
   - **5 x R x C** itu adalah waktu tunda untuk **charging** sampai penuh serta tegangan sudah stabil dan waktu tunda untuk **discharging** sampai habis.
 
-### Implementasi dari Low Pass Filter
+### Implementasi dari rangkaian Low Pass Filter
 
 - Bypass / Decoupling Capacitor
 
   ![bypass and decoupling capacitor](../../img//bypass_and_decoupling_capacitor.png)
   - Fungsi: Menstabilkan tegangan suplai ke chip.
   - Tidak perlu pakai resistor hanya capacitor
-  - Lokasi Pasang: Di kaki VCC.
+  - Lokasi Pasang: kapasitor(+) -> VCC(microcontroller)/load dan kapasitor(-) -> GND.
   - Kapan Berfungsi: Terus-menerus selama alat menyala.
   - Masalah: Chip digital (seperti ESP32) bekerja dengan kecepatan sangat tinggi. Ia menarik arus listrik secara mendadak dan terputus-putus (seperti denyut nadi yang sangat cepat). Karena kabel dari sumber listrik (baterai) memiliki hambatan, tarikan arus mendadak ini menyebabkan tegangan di kaki chip sempat turun/drop sesaat (misal dari 3.3V turun jadi 3.0V lalu naik lagi). Jika tegangan turun terlalu jauh, chip akan mati atau restart sendiri.
   - Cara kerja:

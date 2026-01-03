@@ -64,12 +64,20 @@ __jadi kalau ada rangkaian yang digunakan untuk hitung arus yaitu voltase terakh
         * Rt = R1 * R2 / (R1 + R2)
 
 ### Pemasangan resistor
-- resistor seri -> untuk menghambat arus ke komponen, agar komponen tidak rusak
-- resistor parallel ke 5V/VS -> Menjaga "Standar Logika" (Agar tidak Bingung)
-    - Tanpa Tombol Ditekan: Arus mengalir dari 5V -> Resistor -> Pin Input. Pin membaca HIGH.
-    - Saat Tombol Ditekan (ke GND): Arus dari 5V -> Resistor -> Masuk ke Ground. Pin membaca LOW.
-    - Kapan memakainya:
-        - Tombol/Switch
-        - I2C koneksi
-        - Pin Reset -> Agar chip tidak merestart dirinya sendiri secara tiba-tiba karena noise (gangguan sinyal).
-    - Resistor yang dipakai 10k Ohm atau 4.7k Ohm
+- Resistor seri -> untuk menghambat arus ke komponen, agar komponen tidak rusak
+- Resistor Paralel (Pull-UP & Pull-DOWN)
+    - Fungsi: Menjaga "Standar Logika" agar input tidak mengambang (Floating) saat tidak ada sinyal.
+    ![pull_up_resistor](../img/pull_up_resistor.png)
+    - Pull-UP Resistor
+        - Pemasangan: Resistor disambung ke 5V.
+        - Logika:
+            - Tanpa Tombol: Arus dari 5V masuk ke Pin/Load -> Pin/Load baca HIGH.
+            - Tombol Ditekan (ke Ground): Arus dari 5V lari ke Ground lewat tombol -> Pin/Load baca LOW.
+        - Kapan dipakai: I2C (wajib), Pin Reset (agar tidak restart sendiri), Tombol (Aktif LOW).
+    ![pull_down_resistor](../img/pull_down_resistor.png)
+    - Pull-DOWN Resistor (Yang dipakai di eksperimen Schottky (Wire "OR"))
+        - Pemasangan: Resistor disambung ke Ground.
+        - Logika:
+            - Tanpa Tombol: Pin/Load terhubung ke Ground lewat resistor -> Pin baca LOW.
+            - Tombol Ditekan (ke 5V): Arus masuk ke Pin -> Pin baca HIGH.
+    - Resistor yang digunakan 10Kohm untuk pull up dan pull down
