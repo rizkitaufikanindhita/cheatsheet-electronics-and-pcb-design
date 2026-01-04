@@ -1,5 +1,6 @@
 # Alternating and Direct Current
 
+![AC_DC](../img//AC_DC.png)
 ### DC
 
 Arus mengalir satu arah saja (dari + ke −)

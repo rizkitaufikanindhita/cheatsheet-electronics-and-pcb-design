@@ -93,5 +93,7 @@ __pada parallel arus akan dibagi sesuai cabangnya e.g 100mA ada 2 cabang bisa 40
 * pastikan lagi kalau tegangannya sudah habis terbagi ke semua komponen 
 __sourcenya ../img/2_Series_Parallel_Resistor_Practice.png dan ../img/2_Series_Parallel_Resistor_Practice_setelah_disederhanakan.png__
 __diingat-ingat lagi cara analysis circuitnya apda gambar tersebut__
-        
+
+- e.g lain parallel resistor
+![resistor_parallel](../img/resistor_parallel.png)        
         
