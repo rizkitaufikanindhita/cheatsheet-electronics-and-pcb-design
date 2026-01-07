@@ -16,7 +16,7 @@
   - Besar Tegangan (V) tergantung pada seberapa cepat Arus berubah (dI/dt)
 
 ## jenis yang tidak aman RLC 
-![series RLC](../img/series_RLC.png)
+![series RLC](../../img/series_RLC.png)
 - Series RLC (Bahaya pada Jalur Data)
   - Terjadi pada kabel panjang atau jalur PCB antar-chip.
   - Konsep: Jalur memiliki Induktansi (L) parasit. Saat sinyal digital berubah cepat (0 ke 1), Induktor memaksa arus terus mengalir sehingga tegangan "kebablasan" (overshoot) melewati target, lalu memantul-mantul (ringing) sebelum stabil.
@@ -27,7 +27,7 @@
     - Perpendek Jalur: Kurangi panjang kabel/PCB untuk membuang Induktansi (L).
     - Series Termination: Tambahkan Resistor kecil (misal 22Ω - 33Ω) secara seri di dekat sumber sinyal. Resistor ini bertugas "meredam" pantulan energi agar sinyal cepat tenang.
 
-![parallel RLC](../img/parallel_RLC.png)
+![parallel RLC](../../img/parallel_RLC.png)
 - Parallel RLC (Bahaya pada Power Supply)
   - Terjadi pada rangkaian filter atau input daya.
   - Konsep: Disebut "Tank Circuit". Energi listrik terjebak ping-pong bolak-balik antara Kapasitor dan Induktor. Tanpa peredam, sirkuit ini menjadi osilator (pembangkit gelombang) yang bergetar terus menerus.
