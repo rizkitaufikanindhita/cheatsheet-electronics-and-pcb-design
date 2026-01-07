@@ -115,3 +115,7 @@
   - Kita pakai Impedansi (Z).
   - Rumus: I = V/Z
   - Menghitung nilai dan fase.
+
+
+-__Dalam DC hambatan datang hanya dari resistor untuk hitung arus__
+-__Dalam AC hambatan datang dari resistor, capacitor, dan induktor untuk hitung arus__

@@ -12,6 +12,7 @@
 
 * KVL 
     * Dalam satu closed circuit, tegangan sumber pasti habis terpakai ("nol") karena dibagi-bagi ke setiap komponen sesuai besar hambatannya.
+    * Tegangan itu akan drop setiap melewati komponen dan akhirnya akan menjadi 0V.
     * Vtotal = V1 + V2 + V3 + ...
     * intinya tegangan akan menjadi 0V
 

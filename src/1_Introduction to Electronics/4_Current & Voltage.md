@@ -31,8 +31,10 @@ Namun secara konvensional dari + ke – (hole yang bergerak) (dirangkaian bacany
 Voltase dari battery (e.g 1.5V) saat diukur bisa menjadi 1.2V karena didalam battery ada resistor kecil 
 
 ## Series & Parallel
+![battery_series](../img/battery_series.png)
 * Cara menambah voltase pada battery : Series (supaya alat elektronik yang butuh tegangan lebih tinggi bisa menyala). Skemanya: battery 1 negative dihubungkan ke battery 2 positif, battery 2 negative dihubungkan ke battery 3 positif dst.
- 
+
+![battery_parallel](../img/battery_parallel.png) 
 * Cara menambah ampere pada battery : Parallel (supaya alat bisa berjalan lebih lama tanpa baterai cepat habis (karena ditambah batterynya)). Skemanya: battery 1 positif dihubungkan ke battery 2 positif, battery 1 negative dihubungkan ke battery 2 negative dst. e.g untuk menggerakan motor yang perlu arus besar.
  
 
