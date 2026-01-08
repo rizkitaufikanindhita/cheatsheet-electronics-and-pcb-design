@@ -30,7 +30,7 @@
 - Parallel Capacitor
   - Ct = C1 + C2 + C3 + ...
 - Series Capacitor
-  - Ct = C1 \* C2 / (C1 + C2)
+  - Ct = (C1 * C2) / (C1 + C2)
   - Capacitor disusun series sangat jarang sekali digunakan, mending langsung pasang capacitor yang besar
 
 ### Konsep RC Circuit
