@@ -43,6 +43,8 @@
     - [Introduction](3_Electrical%20Engineering%20101/5_Power%20Supply/1_Introduction.md)
     - [Power Supply Primer](3_Electrical%20Engineering%20101/5_Power%20Supply/2_Power%20Supply%20Primer.md)
     - [5V Power Supply](3_Electrical%20Engineering%20101/5_Power%20Supply/3_5V%20Power%20Supply.md)
+    - [3.3V Power Supply](3_Electrical%20Engineering%20101/5_Power%20Supply/4_3.3V%20Power%20Supply.md)
+
 
 
 
