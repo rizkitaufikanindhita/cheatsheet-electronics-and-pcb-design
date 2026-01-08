@@ -41,5 +41,8 @@
     - [Rangkaian Diodes](3_Electrical%20Engineering%20101/4_Diodes/3_Rangkaian%20Diodes.md)
   - [Power Supply]()
     - [Introduction](3_Electrical%20Engineering%20101/5_Power%20Supply/1_Introduction.md)
+    - [Power Supply Primer](3_Electrical%20Engineering%20101/5_Power%20Supply/2_Power%20Supply%20Primer.md)
+    - [5V Power Supply](3_Electrical%20Engineering%20101/5_Power%20Supply/3_5V%20Power%20Supply.md)
+
 
 

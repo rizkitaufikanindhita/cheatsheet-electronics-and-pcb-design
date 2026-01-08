@@ -6,11 +6,11 @@
 ### Tegangan Liar vs. Kebutuhan Presisi
 - Tegangan dari sumber listrik PLN itu merupakan tegangan liar 
 - Dalam pengembangan kita butuh yang presisi
-- e.g esp32 butuh 3.3V tapi dari PLN adanya 120VAC 
+- e.g esp32 butuh 3.3V tapi dari PLN adanya 220VAC 
 - maka butuh adapter lalu perantara
 
 ### Adapter
-- Input PLN 120VAC
+- Input PLN 220VAC
 - dengan trafo diturunkan VACnya 
 - lalu dengan bridge rectifier dibuat menjadi DC (tapi masih sinusoidal bisa balik ke 0V)
 - ditambah capacitor ripple sehingga sinyal DC menjadi lebih datar tidak balik ke 0V (walaupun terkadang masih bergerigi ada sisaan AC makanya perlu perantara) 
@@ -18,7 +18,7 @@
 
 ### Perantara 
 - Linear Regulator
-    - Contoh: LM7805, LM1117
+    - Contoh: LM7805 (Standard Regulator)
     - Input 9V 
     - Output 5V
     - Maka selisih 4V akan dibuang menjadi panas
@@ -26,11 +26,11 @@
     - Intinya linear regulator itu menahan aliran (seperti kran yang ditutup separuh makanya bisa panas)
 - LDO (Low Dropout Regulator)
     - Contoh: AMS1117, LD29150
-    - Butuh voltage drop pada komponennya
-    - Input 5.4V
-    - LDO 0.4V
+    - Merupakan Linear Regulator yang butuh selisih tegangan (dropout) sangat kecil.
+    - Input 5.4V (Bisa sangat dekat dengan output)
+    - Dropout 0.4V (Contoh)
     - Output 5V
-    - Konsepnya sama seperti linear regulator tapi lebih sedikit energi yang dibuang
+    - Lebih efisien karena bisa diberi input yang lebih rendah (misal 5.4V) dibandingkan regulator biasa.
 - Switching Regulator
     - Contoh: Buck Converter, Boost Converter
     - Input 9V
@@ -54,3 +54,8 @@
 - Stage 2 - Regulation
     - Switching Regulator
     - LDO
+
+### Perbedaan
+- Perbedaan mendasar switching regulator dan Linear regulator yaitu 
+    - Switching hasilnya masih bergerigi 
+    - Linear hasilnya lurus mulus
