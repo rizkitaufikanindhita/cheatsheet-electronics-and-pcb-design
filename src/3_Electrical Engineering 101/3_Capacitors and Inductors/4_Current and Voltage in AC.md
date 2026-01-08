@@ -30,6 +30,7 @@
   - ω = 2πf
   - f adalah frekuensi sinyal AC dalam Hz
   - ω -> Omega
+  - Xc = 1/(2πfC)
   - mekanisme:
     - Frekuensi Rendah: Tegangan berubah lambat. Kapasitor punya banyak waktu hingga penuh. Saat penuh, arus berhenti mengalir (terblokir). Hambatan (Xc) besar.
     - Frekuensi Tinggi: Tegangan bolak-balik sangat cepat. Kapasitor belum sempat penuh, arah arus sudah berbalik lagi. Karena tidak pernah penuh, arus terus mengalir leluasa bolak-balik. Hambatan (Xc) menjadi kecil.
@@ -41,6 +42,7 @@
   - ω = 2πf
   - f adalah frekuensi sinyal AC dalam Hz
   - ω -> Omega
+  - XL = 2πfL
   - mekanisme:
     - Frekuensi Rendah: Arus berubah pelan-pelan. Tegangan lawan yang dihasilkan kecil. Hambatan (XL) kecil.
     - Frekuensi Tinggi: Arus berubah sangat cepat. Induktor merespons dengan menciptakan tegangan lawan yang sangat besar untuk melawan perubahan itu. Akibatnya, arus sulit lewat. Hambatan (XL) menjadi besar.
