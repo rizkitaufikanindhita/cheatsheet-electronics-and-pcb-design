@@ -41,6 +41,7 @@
         - H(f) = 1/sqrt(1+(2πfRC)^2)
         - H(f) = 0.707 -> 70.7 % tegangan lolos        
         - Vout = 3.3 x 0.707 -> 2.33 V yang lolos
+        - 0.707 sama dengan -3db (ambang batas sebelum berangsur-angsur diblokir)
 
         - f = 50 Hz -> noise listrik
         - H(f) = 1/sqrt(1+(2πfRC)^2)

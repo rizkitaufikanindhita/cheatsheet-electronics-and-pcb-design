@@ -1,5 +1,7 @@
-# Voltage Dividers in AC
+# Pass Filter AC
 - Filtering berdasarkan frekuensi
+- Voltasenya tidak bisa lewat atau bisa lewat tergantung frekuensinya (masuk ke beban)
+- Rangkaian mirip voltage divider DC (dengan 2 resistor)
 
 ### contoh
 - f = 100 Hz
@@ -8,6 +10,7 @@
   - XL = 2πfL = 2π(100)(2.2×10^-3) = 1.38 Ω
   - ZL = XL∠90° = 1.38∠90° Ω
 
+![low_high_pass_filter](../../img/low_high_pass_filter.png) 
 ### Skenario RL dan LR
 - Skenario 1:
   - R dulu baru L (output diambil di Induktor)

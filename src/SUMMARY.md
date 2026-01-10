@@ -33,7 +33,7 @@
     - [RC and RL Circuits](3_Electrical%20Engineering%20101/3_Capacitors%20and%20Inductors/3_RC%20and%20RL%20Circuits.md)
     - [Current and Voltage in AC](3_Electrical%20Engineering%20101/3_Capacitors%20and%20Inductors/4_Current%20and%20Voltage%20in%20AC.md)
     - [Imaginary Number and Complex Phasors](3_Electrical%20Engineering%20101/3_Capacitors%20and%20Inductors/5_Imaginary%20Number%20and%20Complex%20Phasors.md)
-    - [Voltage Dividers in AC](3_Electrical%20Engineering%20101/3_Capacitors%20and%20Inductors/6_Voltage%20Dividers%20in%20AC.md)
+    - [Pass Filter AC](3_Electrical%20Engineering%20101/3_Capacitors%20and%20Inductors/6_Pass%20Filter%20AC.md)
     - [Frequency Domain Analysis](3_Electrical%20Engineering%20101/3_Capacitors%20and%20Inductors/7_Frequency%20Domain%20Analysis.md)
   - [Diodes]()
     - [Deep Dives](3_Electrical%20Engineering%20101/4_Diodes/1_Deep%20Dives.md)
