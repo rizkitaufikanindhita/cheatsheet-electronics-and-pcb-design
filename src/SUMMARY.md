@@ -45,6 +45,9 @@
     - [5V Power Supply](3_Electrical%20Engineering%20101/5_Power%20Supply/3_5V%20Power%20Supply.md)
     - [3.3V Power Supply](3_Electrical%20Engineering%20101/5_Power%20Supply/4_3.3V%20Power%20Supply.md)
     - [Transformer for Power Supply](3_Electrical%20Engineering%20101/5_Power%20Supply/5_Transformer%20for%20Power%20Supply.md)
+    - [Filtering Power Supply](3_Electrical%20Engineering%20101/5_Power%20Supply/6_Filtering%20Power%20Supply.md)
+    - [Power Supply Flow](3_Electrical%20Engineering%20101/5_Power%20Supply/7_Power%20Supply%20Flow.md)
+
 
 
 

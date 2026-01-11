@@ -1,14 +1,19 @@
 # Power Supply Primer
 
+
+### Urutan Primer Power Supply
 -- PLN
 - Listrik PLN (AC 220V)
+
 -- Adapter
 - Trafo -> menurunkan VAC PLN (AC 12V)
 - Bridge Rectifier -> membuat menjadi VDC tapi masih kembali ke 0V (DC 12V)
-- Capacitor Ripple -> membuat VDC tidak kembali ke 0V (DC 12V)
+- Capacitor Ripple -> membuat VDC tidak kembali ke 0V (DC 12V) (menggunakan 10000μF (microfarad) atau 4700μF)
 - Switching Regulator -> menurunkan VDC (Tapi masih agak bergerigi) (DC 7V)
+
 -- Perantara
-- LDO -> menurunkan VDC dan membuat VDC sangat stabil/halus (DC 5V)
+- LDO/Linear Regulator -> menurunkan VDC dan membuat VDC stabil (sangat minim noise (torelable)) (DC 5V)
+
 -- Ending
 - VIN MCU (DC 3.3V)
 
