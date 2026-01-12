@@ -19,5 +19,6 @@
 
 ### e.g
 ![transformer_imple](../../img/transformer_imple.png)
+![trafo_impl](../../img/trafo_impl.png)
 - primary dipasang paralel
 - secondary dipasang paralel

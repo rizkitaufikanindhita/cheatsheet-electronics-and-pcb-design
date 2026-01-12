@@ -5,8 +5,8 @@
 - menurunkan tegangan AC dan mengubahnya menjadi DC.
 
 ### Tipe Dioda
-- Dioda Silikon (1N4001): Penjaga standar. Kuat, murah, tapi minta bayaran (drop voltage -> Vf) 0.7V. Cocok untuk penggunaan umum.
-- Dioda Schottky: Penjaga yang gesit dan murah hati. Dia membuka pintu lebih cepat dan hanya minta bayaran kecil (0.2V - 0.3V). Tapi, dia tidak sekuat silikon menahan tekanan balik yang besar.
+- Dioda Silikon (1N4001): Penjaga standar. Kuat, murah, tapi minta bayaran (drop voltage -> Vf) 0.7V. Cocok untuk penggunaan umum. PN-Junction.
+- Dioda Schottky: Penjaga yang gesit dan murah hati. Dia membuka pintu lebih cepat dan hanya minta bayaran kecil (0.2V - 0.3V). Tapi, dia tidak sekuat silikon menahan tekanan balik yang besar. Kenapa murah karena dia P-Junction aja atau N-Junction.
 - Dioda Zener (regulator): Penjaga "Safety Valve". Dia bekerja normal (satu arah), TAPI jika tekanan dari arah berlawanan terlalu besar (misal melebihi 5.1V), dia sengaja jebol (breakdown) untuk membuang kelebihan tekanan itu demi keamanan. Ini dipakai untuk Regulasi Tegangan. Jadi akan menggunakan tegangan yang tertera di zener diode.
 
 ### AC ke DC

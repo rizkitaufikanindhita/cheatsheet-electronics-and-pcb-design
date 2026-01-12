@@ -6,11 +6,13 @@
 
 ### Solusi
 - 1. Kapasitor: "Si Penampung & Si Penyaring"
-    - Kamu butuh dua jenis kapasitor secara paralel:
+    ![decoupling_load](../../img/decoupling_load.png)
+    - butuh dua jenis kapasitor secara paralel (bypass decoupling):
         - Kapasitor Besar (misal 2200µF): Ini adalah "tangki cadangan". Saat motor pertama kali nyala (start-up), dia menyedot arus besar. Tanpa kapasitor ini, tegangan akan drop sesaat (brownout). Kapasitor ini menambal kekurangan itu.
         - Kapasitor Kecil (0.1µF): Ini adalah "jalur pembuangan" untuk noise. Noise motor itu frekuensinya tinggi. Bagi frekuensi tinggi, kapasitor kecil ini terlihat seperti jalan pintas (short circuit) ke Ground. Jadi, noise-nya dibuang ke tanah sebelum masuk ke sistem digitalmu.
 
 - 2. Ferrite Bead
+    ![ferrite_bead_impl](../../img/ferrite_bead_impl.png)
     - Ferrite Bead adalah induktor yang unik. Cara kerjanya:
         - Untuk Arus DC (Listrik stabil): Dia seperti kawat biasa (hambatan nol). Listrik lewat lancar.
         - Untuk Arus AC/Noise (Frekuensi tinggi): Dia berubah menjadi resistor (hambatan tinggi).
