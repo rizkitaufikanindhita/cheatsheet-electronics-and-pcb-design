@@ -1,5 +1,7 @@
 # Transistors
 
+- BJT (Bipolartransistor) makan 0.7V untuk mulai aktif
+
 ### berfungsi
 * Switch -> Menghidupkan atau mematikan beban secara otomatis menggunakan arus/tegangan kecil.
 * Amplifier -> Menggunakan arus/tegangan kecil untuk meng-ON-kan beban yang butuh arus/tegangan lebih besar. Sehingga arus/tegangan kecil bisa menghasilkan output yang lebih besar.
@@ -10,8 +12,9 @@
 * Emitter
 
 ### Jenis Transistor
-* NPN
-* PNP
+- Bipolartransistor
+    - NPN
+    - PNP
 
 ### Deep Dives
 ![npn_pnp](../img/npn_pnp.png)
@@ -29,6 +32,7 @@ __NPN paling sering digunakan__
 * pada NPN -> Arus Emitter = Arus Base + Arus Collector
 * Amplification pada transistor NPN
     * IC = β ⋅ IB
+    - IE = IC + IB
     * dimana:
         * IC = arus collector
         * IB = arus base
@@ -57,3 +61,6 @@ __transistor NPN itu "Low-Side Switching" (Saklar Sisi Bawah(pada bagian negatif
 __Arus listrik (+) sebenarnya sudah standby masuk ke pompa, tapi dia macet tidak bisa mengalir karena jalan pulang ke Ground diputus oleh Transistor NPN di bawah. Begitu Anda tekan tombol, jalan ke Ground terbuka, arus mengalir, pompa nyala.__
 
 __Jika arusnya di bawah 0.5 Ampere atau urusan Suara, pakai Transistor (BJT). Jika arusnya di atas 1 Ampere atau urusan Tenaga, wajib pakai MOSFET.__
+
+### e.g
+![npn_transistor_e_g](../img/npn_transistor_e_g.png)

@@ -23,6 +23,7 @@
 
 ### Rangkaian
 * N-Channel MOSFET (NMOS) 
+    ![N-Channel MOSFET (NMOS)](../img/N-Channel%20MOSFET%20(NMOS).png)
     * e.g
     * Led + lewat resistor dihubungkan ke power supply + 
     * Led - dihubungkan ke Drain
@@ -30,6 +31,7 @@
     * Gate dihubungkan ke Sinyal kontrol (Arduino/MCU/dll) (e.g power supply + ke momentory switch ke resistor (dilewatkan positif, negatifnya resistor masuk ke ground) baru ke gate)
 
 * P-Channel MOSFET (PMOS)
+    ![PMOS_mosfet](../img/PMOS_mosfet.png)
     * e.g
     * Source dihubungkan ke power supply +
     * Drain dihubungkan ke beban komponen +
