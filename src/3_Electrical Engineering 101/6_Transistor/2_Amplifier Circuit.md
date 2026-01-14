@@ -1,0 +1,3 @@
+# Amplifier 
+
+### Transistor sebagai Amplifier

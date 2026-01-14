@@ -47,6 +47,10 @@
     - [Transformer for Power Supply](3_Electrical%20Engineering%20101/5_Power%20Supply/5_Transformer%20for%20Power%20Supply.md)
     - [Filtering Power Supply](3_Electrical%20Engineering%20101/5_Power%20Supply/6_Filtering%20Power%20Supply.md)
     - [Power Supply Flow](3_Electrical%20Engineering%20101/5_Power%20Supply/7_Power%20Supply%20Flow.md)
+  - [Transistors]()
+    - [Introduction](3_Electrical%20Engineering%20101/6_Transistor/1_Introduction.md)
+    - [Amplifier Circuit](3_Electrical%20Engineering%20101/6_Transistor/2_Amplifier%20Circuit.md)
+
 
 
 

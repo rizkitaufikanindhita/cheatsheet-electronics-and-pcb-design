@@ -33,6 +33,7 @@ __NPN paling sering digunakan__
 * Amplification pada transistor NPN
     * IC = β ⋅ IB
     - IE = IC + IB
+    - VE = VB - 0.6V
     * dimana:
         * IC = arus collector
         * IB = arus base
